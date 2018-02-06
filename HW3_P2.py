@@ -115,5 +115,5 @@ C3 = ChanceNode('C3', 45, [T4, T5], [0.1, 0.9], 0)
 D1 = DecisionNode('D1', 0, [C1, C3], 0)
 
 # print the expect cost of C1 and C3
-print("Expected Costs @ Node:", D1.get_expected_costs())
-print("Expected Utility @ Node:", D1.get_expected_utility())
+print("Expected Costs @ Node(s):", D1.get_expected_costs())
+print("Expected Utility @ Node(s):", D1.get_expected_utility())

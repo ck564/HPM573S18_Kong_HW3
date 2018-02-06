@@ -66,6 +66,3 @@ Hospital1.discharge_all()
 
 # Calculating total cost
 print("Total operating cost: $", Hospital1.get_total_cost())
-
-
-
